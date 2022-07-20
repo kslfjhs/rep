@@ -1,6 +1,6 @@
 FROM debian
 RUN apt update
-RUN DEBIAN_FRONTEND=noninteractive apt install ssh wget npm -y
+RUN DEBIAN_FRONTEND=noninteractive apt install ssh wget npm apache2 -y
 RUN npm install -g wstunnel
 RUN mkdir /run/sshd 
 RUN a2enmod proxy_wstunnel
