@@ -1,8 +1,6 @@
 services:
-  areyouok:
+  tea:   #容器名称
     build: .
     ports:
       - 80:80
-      - 8888:8888
       - 3000:3000
-      
