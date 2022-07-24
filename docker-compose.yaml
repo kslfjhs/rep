@@ -1,6 +1,6 @@
 services:
-  tea:   #容器名称
+  areyouok:     #容器名称
     build: .
     ports:
       - 80:80
-      - 3000:3000
+      - 25565:25565
